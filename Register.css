@@ -1,5 +1,5 @@
 body {
-    background-image: url(frndd.jpg);
+    background-image: url(Images/frndd.jpg);
     background-repeat: no-repeat;
     background-size: 220vh 50vw;
 }
@@ -77,7 +77,7 @@ body {
 }
 
 #da1 {
-    background: url(formbg.jpg);
+    background: url(Images/formbg.jpg);
     background-size: 44vw 82vh;
     border: 15px outset rgb(80, 121, 143);
     box-shadow: 12px 12px 15px  black;

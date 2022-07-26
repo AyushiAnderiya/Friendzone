@@ -1,5 +1,5 @@
 body {
-    background-image: url(frndd.jpg);
+    background-image: url(Images/frndd.jpg);
     background-repeat: no-repeat;
     background-size: 220vh 50vw;
 }
@@ -11,7 +11,11 @@ body {
 
 }
 #img{
-    min-height: 30px;
+    min-width: 100px;
+    min-height: 50px;
+    height: 50vh;
+    width: 60vw;
+    margin-left: 250px;
 
 }
 
