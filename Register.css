@@ -1,0 +1,143 @@
+body {
+    background-image: url(frndd.jpg);
+    background-repeat: no-repeat;
+    background-size: 220vh 50vw;
+}
+
+.d2 {
+    background-color: rgb(36, 39, 44);
+    height: 50px;
+}
+
+
+.d2 .navbar li {
+    padding: 24px;
+    display: inline;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Taviraj', serif;
+    text-decoration: none;
+
+}
+#about{
+    font-family: 'Taviraj', serif; 
+}
+
+.d2 .navbar li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.d2 .navbar li a:hover {
+    color: rgb(45, 98, 147);
+
+}
+
+#fz {
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+.d2 .d3 li {
+    display: inline;
+}
+
+#search {
+    padding-left: 550px;
+
+}
+#txt{
+    background-color: white;
+    height: 25px;
+}
+
+
+#bt {
+    color: aliceblue;
+    background-color: rgb(61, 110, 150);
+    border-radius: 5px;
+    font-family: 'Taviraj', serif;
+    font-size: 18px;
+}
+
+#bt:hover {
+    background-color: snow;
+    color:  rgb(61, 110, 150);
+    cursor: pointer;
+}
+
+
+
+#f1 {
+    display: inline;
+    border-style: inset;
+
+}
+
+#da1 {
+    background: url(formbg.jpg);
+    background-size: 44vw 82vh;
+    border: 15px outset rgb(80, 121, 143);
+    box-shadow: 12px 12px 15px  black;
+    border-radius: 13px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 14px;
+    padding: 20px 30px;
+    width: 40vw;
+    margin-left: 30vw;
+}
+
+
+
+input {
+    background-color: rgba(191, 239, 245, 0);
+    color: rgb(0, 0, 0);
+    font-family: 'Trirong', serif;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type="number"]:hover {
+    background-color: rgb(218, 242, 246);
+}
+
+input[type="text"]:hover {
+    background-color: rgb(216, 240, 243);
+}
+
+input[type="date"]:hover {
+    background-color: rgb(212, 236, 240);
+
+}
+
+input[type="email"]:hover {
+    background-color: rgb(216, 236, 238);
+
+}
+
+.reg {
+ 
+    background-color: rgba(255, 250, 250, 0);
+    color:  rgb(61, 150, 140);
+    border:solid black 3px;
+    font-family: 'Sirin Stencil', cursive;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reg:hover {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    background-color: rgb(61, 150, 140);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.425), 0 6px 20px 0 rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+}
+
+
+

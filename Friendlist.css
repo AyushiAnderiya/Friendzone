@@ -1,0 +1,66 @@
+body {
+    background-image: url(frndd.jpg);
+    background-repeat: no-repeat;
+    background-size: 220vh 50vw;
+}
+
+.d2 {
+    background-color: rgb(36, 39, 44);
+    height: 50px;
+}
+
+
+.d2 .navbar li {
+    padding: 24px;
+    display: inline;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Taviraj', serif;
+    text-decoration: none;
+
+}
+
+.d2 .navbar li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.d2 .navbar li a:hover {
+    color: rgb(45, 98, 147);
+
+}
+
+#fz {
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+.d2 .d3 li {
+    display: inline;
+}
+
+#search {
+    padding-left: 550px;
+
+}
+
+#txt {
+    background-color: white;
+    height: 25px;
+}
+
+#bt {
+    color: aliceblue;
+    background-color: rgb(61, 110, 150);
+    border-radius: 5px;
+    font-family: 'Taviraj', serif;
+    font-size: 18px;
+}
+
+#bt:hover {
+    background-color: snow;
+    color: rgb(61, 110, 150);
+    cursor: pointer;
+}
