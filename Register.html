@@ -35,33 +35,30 @@
         <script src="https://kit.fontawesome.com/c7ec2c7865.js" crossorigin="anonymous"></script>
         <script>
             function myfun() {
-                if () {
-                    alert("Fill all required details");
-                } else {
-                    document.location.href = "/Conformation.html"; 
+                if(namee==" "){
+                    alert("jh");
+                }else{
+                   document.location.href="Conformation.html";  
                 }
-
+                   
+                
             }
             function myfunAd() {
-                if () {
-                    alert("Fill all required details");
-                } else {
                     document.location.href = "ConformationAdmin.html";
                 }
-
-            }
+ 
         </script>
         <br><br>
         <form id="da1">
-            <p><b>Name:-</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="formm"
+            <p><b>Name:-*</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" class="formm"
                     placeholder="abcd" id="p1" style=" border-radius: 4px; cursor: pointer;" required="required"
-                    minlength="3" name="name"></p>
-            <p><b>Age:-</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+                    minlength="3" name="namee" ></p>
+            <p><b>Age:-*</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
                     type="number" class="formm" id="p3" placeholder="1" style=" border-radius: 4px; cursor: pointer;"
                     required="required" min="18" name="age" ></p>
             <p><b>Contact:-</b>&nbsp;&nbsp;&nbsp;<input type="number" class="formm" placeholder="123456789" id="p5"
-                    name="contact" style=" border-radius: 4px; cursor: pointer;"></p>
-            <p><b>EMail:-</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"
+                    name="contact" style=" border-radius: 4px; cursor: pointer;" minlength="9"></p>
+            <p><b>EMail:-*</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email"
                     placeholder="a21@gmail.com" id="p6" class="formm" style=" border-radius: 4px; cursor: pointer;"
                     required="required"></p>
             <p><b>DOB:-</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -79,8 +76,8 @@
                 <p>Friendship<input type="radio" name="frnd">Dating<input type="radio" name="frnd"></p>
 
             </fieldset> <br><br>
-            <button class="reg" id="reg" onclick="myfun" type="submit">Register</button>
-            <button class="reg" id="regA" onclick="myfunAd" type="submit">Register as Admin</button>
+            <button class="reg" id="reg" onclick="myfun()" type="submit">  Register</button>
+            <button class="reg" id="regA" onclick="myfunAd()" type="submit">Register as Admin</button>
         </form>
     </div>
 

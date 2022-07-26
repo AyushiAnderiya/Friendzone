@@ -64,3 +64,36 @@ body {
     color: rgb(61, 110, 150);
     cursor: pointer;
 }
+table, th, td {
+    border:2px outset black;
+    margin: 120px;
+    text-shadow: 2px 8px 8px rgb(0, 0, 0);
+  }
+
+  th{
+    font-family: 'Taviraj', serif;
+    font-size: 28px;
+    color: aliceblue;
+    background-color: rgba(19, 107, 107, 0.782);
+    padding: 3px;
+  }
+
+  td{ padding: 10px;
+    font-family: 'Taviraj', serif;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: rgba(127, 223, 223, 0.738);
+  }
+  td:hover{
+    background-color: yellow;
+    color: red;
+  } 
+  .dat{
+    background-color: white;
+    font-family: 'Taviraj', serif;
+    border-radius: 5px;
+  }
+  .dat:hover{
+    color: white;
+    background-color: rgb(20, 192, 192);
+  }
