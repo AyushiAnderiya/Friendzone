@@ -1,5 +1,6 @@
 body {
     background-image: url(Images/frndd.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 220vh 50vw;
 }
@@ -15,13 +16,14 @@ body {
     min-height: 50px;
     height: 50vh;
     width: 60vw;
-    margin-left: 250px;
+    margin-left: 290px;
 
 }
 
 .d2 {
     background-color: rgb(36, 39, 44);
     height: 50px;
+    background-attachment: fixed;
 }
 
 
@@ -33,6 +35,7 @@ body {
     font-weight: bold;
     font-family: 'Taviraj', serif;
     text-decoration: none;
+    background-attachment: fixed;
 
 }
 
@@ -78,4 +81,60 @@ body {
     background-color: snow;
     color: rgb(61, 110, 150);
     cursor: pointer;
+}
+
+#follow{
+    color: aliceblue;
+    font-family: 'Trirong','Taviraj', serif;
+    font-size: 25px; 
+}
+.icons{
+    margin-top: 0%;
+    color: rgb(161, 207, 213);
+    font-size: 25px;
+}
+.icons:hover{
+    color: rgb(246, 246, 246);
+}
+
+#thought{
+    color: white;
+    font-size: 35px;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: rgba(45, 85, 98, 0.833);
+    text-align: center;
+    height: 40px;
+    width: fit-content;
+    margin-left: 260px;
+    border: outset rgb(45, 85, 98) 6px;
+}
+#content{
+    color: white;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Courgette', cursive; */
+    background-color: rgba(123, 148, 156, 0.833);
+    word-spacing: 5px;
+
+}
+#feature{
+    color: white;
+    font-size: 20px;
+}
+
+#feature p{
+    margin-top: -5px;
+    margin-left: 55px;
+    font-family: 'Taviraj', serif;
+    font-size: 20px;
+    
+}
+#feature h3{
+    font-family: 'Trirong','Taviraj', serif;
+    letter-spacing: 1px;
+}
+h2{
+    font-family: 'Laila', sans-serif;
+   letter-spacing: 1px;
+   text-shadow: 2px 8px 8px rgb(0, 0, 0);
 }
